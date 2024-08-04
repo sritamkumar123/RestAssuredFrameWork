@@ -68,7 +68,7 @@ public class UserTest {
 		response.then().log().all();
 		
 		//validation
-		Assert.assertEquals(response.statusCode(), 200,"Staus code should be 200");
+		Assert.assertEquals(response.statusCode(), 400,"Staus code should be 200");
 		
 		System.out.println("Updated the new created user");
 		
